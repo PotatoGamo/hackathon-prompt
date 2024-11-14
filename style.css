@@ -29,9 +29,12 @@ body {
     animation: pulseGradient 6s ease-in-out infinite;
     width: 3rem;
     height: 3rem;
+    border-radius: 50%; /* Make it a circle */
 }
 
-.center{
-    justify-self: center;
-    margin: auto;
+.center {
+    display: flex; /* This will allow centering */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Centers vertically */
 }
